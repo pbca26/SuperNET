@@ -1,19 +1,53 @@
 #!/bin/bash
 
-# add KMD 
+coins/btc_7776
 coins/kmd_7776
-
-# Unlock wallet. 
 ./wp_7776
 
-# external coins.
-coins/btc_7776
-
-# Loop through assetchains.json and build the path to the approptiate coins file and run it.
-~/komodo/src/listassetchains | while read chain; do
-    coin="coins/$(echo $chain | awk '{print tolower($0)}')_7776"
-    $coin
-done
-
-# Add KMD source code forks here manually as its not listed in the assetchains.json
+coins/revs_7776
+coins/supernet_7776
+coins/dex_7776
+coins/bet_7776
+coins/bots_7776
+coins/hodl_7776
+coins/mshark_7776
+coins/jumblr_7776
+coins/crypto_7776
+coins/pangea_7776
+coins/mgw_7776
+coins/coqui_7776
+coins/wlc_7776
+coins/kv_7776
+coins/ceal_7776
+coins/mesh_7776
+coins/axo_7776
+coins/etomic_7776
+coins/btch_7776
+coins/ninja_7776
+coins/oot_7776
+coins/bntn_7776
+coins/chain_7776
+coins/prlpay_7776
+coins/dsec_7776
+coins/glxt_7776
+coins/eql_7776
+coins/zilla_7776
+coins/rfox_7776
+coins/sec_7776
+coins/ccl_7776
+coins/pirate_7776
+coins/pgt_7776
+coins/kmdice_7776
+coins/dion_7776
+coins/ksb_7776
+coins/our_7776
+coins/gin_7776
+coins/iln_7776
+coins/rick_7776
+coins/morty_7776
+coins/vote2019_7776
 coins/hush3_7776
+coins/koin_7776
+coins/zexo_7776
+coins/k64_7776
+coins/thc_7776
