@@ -75,7 +75,7 @@ coins/jumblr_7776
 coins/crypto_7776
 coins/pangea_7776
 coins/mgw_7776
-coins/coqui_7776
+coins/coquicash_7776
 coins/wlc_7776
 coins/kv_7776
 coins/ceal_7776
@@ -111,6 +111,8 @@ coins/koin_7776
 coins/zexo_7776
 coins/k64_7776
 coins/thc_7776
+coins/commod_7776
+
 
 sleep 30
 curl --url "http://127.0.0.1:7776" --data "{\"agent\":\"iguana\",\"method\":\"dpow\",\"symbol\":\"KMD\",\"pubkey\":\"$pubkey\"}"
